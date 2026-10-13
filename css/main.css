@@ -49,7 +49,7 @@ footer {
   /* Add a Flexbox property to make the content-wrapper a flex parent container. */
 display: flex;
   /* Add a Flexbox property to center the contents of each section. */
-  align-items: center;
+  justify-content: center;
 
 }
 
@@ -89,9 +89,7 @@ display: flex;
   /* Add a Flexbox property to make the about-content-wrapper a flex parent container. */
 display: flex;
   /* Add a Flexbox property to center the paragraph in the header. */
-align-items: center;
-  /* Add the Flexbox property flex-flow: row wrap; to allow the flex child items to wrap. */
-  flex-flow: row wrap;  
+justify-content: center;
 }
 
 .about-info {
@@ -105,7 +103,6 @@ display: flex;
 justify-content: space-between;
   /* Add the Flexbox property flex-flow: row wrap; to allow the flex child items to wrap. */
 flex-flow: row wrap;
-  margin-bottom: 50px;
 }
 
 .services-description {
@@ -114,6 +111,7 @@ flex-flow: row wrap;
 display: flex;
   /* Add flex-direction: column; so that the services card's child flex items are laid out in a column. */
 flex-direction: column;
+margin-bottom: 50px;
 }
 
 .services-image img {
@@ -155,8 +153,6 @@ display: flex;
 justify-content: space-around;
   /* Add a Flexbox property to align the contents at their center. */
 align-content: center;
-  /* Add the Flexbox property flex-flow: row wrap; to allow the flex child items to wrap. */
-flex-flow: row wrap;
 }
 
 .contact-wrapper {
